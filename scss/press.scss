@@ -17,7 +17,7 @@ $press-text-alt: #000 !default;
 
 @mixin setTextColor($condition, $color) {
   @if($condition) {
-    --c: #{checkColor($color)}
+    --c: #{checkColor($color)};
   }
   @else {
     --c: #{$press-text-color};
