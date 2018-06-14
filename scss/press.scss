@@ -23,7 +23,7 @@ $press-text-alt: #000 !default;
     --c: #{$press-text-color};
   }
 }
-@mixin press( $testContrast: false, $textColor: $press-text-color ) {
+@mixin press( $testContrast: true, $textColor: $press-text-color ) {
 
 	// Base
 	box-sizing: border-box;
